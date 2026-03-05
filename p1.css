@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 20px;
+}
+.a{
+    background-image:url("ex1.jpg");
+    background-size:cover;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 15px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 8px;
+  
+
+ 
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+input, select, button {
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+li {
+    list-style: none;
+    background: #eee;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.first-color { 
+	background: #fcf9f9; 
+}
+	
+.second-color { 
+	background: #f1f864; 
+}
+
+.third-color { 
+	background: #bceb3c; 
+}
+
+.fourth-color { 
+	background: #7cbd1e; 
+}
+.c{
+    background-color:#fcf9f9;
+    border-color:black;
+    width:300px;
+    height:30px;
+    color:black;
+    font-weight:bold;
+}
+
+.b{
+    background-color:#fcf9f9;
+    border-color:black;
+}
+.mh{
+    color:black;
+    font-size:120px;
+    text-decoration:underline;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: #eee;
+    font-weight: bolder;
+}
+.h2{
+    text-align:center;
+    color: #151b02; 
+    font-size:40px;
+    font-weight:900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    width:320px;
+    height:35px;
+    background-color:#fcf9f9;
+    border-color:black;
+     color:black;
+    font-weight:bold;
+}
+.bu{
+    background-color:black;
+    border-color:black;
+    padding:20px;
+    border-radius:10px;
+    margin:15px;
+}
+.e{
+    text-align:center;
+    color:#e90729;
+}
+.li{
+    border-color:black;
+}
+.hide{
+    display:none;
+}

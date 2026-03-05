@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+
+<div class="a">
+    <h1 class="mh">🔐 Login</h1>
+
+    <div class="container">
+        <h2 class="h2">Welcome Back</h2>
+
+        <input type="email" id="loginEmail" class="c" placeholder="Enter email">
+        <input type="password" id="loginPassword" class="c" placeholder="Enter password">
+
+        <button class="bu" onclick="login()">Login</button>
+
+        <p class="c" style="text-align:center; margin-top:10px;">
+            New user?
+            <a href="signup.html" style="color:#2e7d32; font-weight:bold;">
+                Sign up
+            </a>
+        </p>
+    </div>
+</div>
+
+<script>
+function login() {
+    // TEMPORARY (frontend only)
+    // Later this will call backend API
+    window.location.href = "add.html";
+}
+</script>
+
+</body>
+</html>

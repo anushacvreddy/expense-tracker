@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+
+<div class="a">
+    <h1 class="mh">📝 Sign Up</h1>
+
+    <div class="container">
+        <h2 class="h2">Create Account</h2>
+
+        <input type="email" id="signupEmail" class="c" placeholder="Enter email">
+        <input type="password" id="signupPassword" class="c" placeholder="Enter password">
+        <input type="password" id="signupConfirm" class="c" placeholder="Confirm password">
+
+        <button class="bu" onclick="signup()">Sign Up</button>
+
+        <p class="c" style="text-align:center; margin-top:10px;">
+            Already have an account?
+            <a href="login.html" style="color:#2e7d32; font-weight:bold;">
+                Login
+            </a>
+        </p>
+    </div>
+</div>
+
+<script>
+function signup() {
+    // TEMPORARY (frontend only)
+    // Later this will send data to backend
+    alert("Account created successfully ✅");
+    window.location.href = "login.html";
+}
+</script>
+
+</body>
+</html>

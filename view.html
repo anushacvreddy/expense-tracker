@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Expenses</title>
+    <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+
+<div class="a">
+    <h1 class="mh">💰 Expense Tracker</h1>
+
+    <!-- Expense List -->
+    <div class="container">
+        <h2 class="h2">Expenses</h2>
+
+        <!-- SORT BUTTONS -->
+        <div style="display:flex; gap:10px; justify-content:center; margin-bottom:10px;">
+            <button class="bu" onclick="sortNewest()">Newest First</button>
+            <button class="bu" onclick="sortOldest()">Oldest First</button>
+        </div>
+
+        <ul id="expenseList" class="li"></ul>
+    </div>
+
+    <!-- TOTAL EXPENSE -->
+    <div class="container">
+        <h2 class="h2">Total Expense</h2>
+
+        <!-- CENTERED + HIGHLIGHTED TOTAL -->
+        <p class="c" style="
+            text-align:center;
+            font-size:26px;
+            font-weight:bold;
+            color:#2e7d32;
+            background:#e8f5e9;
+            padding:15px;
+            border-radius:10px;
+        ">
+            ₹ <span id="totalAmount">0</span>
+        </p>
+    </div>
+
+    <!-- MONTHLY SUMMARY -->
+    <div class="container">
+        <h2 class="h2">Monthly Summary</h2>
+        <ul id="monthlySummary" class="li"></ul>
+    </div>
+
+    <!-- CATEGORY CHART -->
+    <div class="container">
+        <h2 class="h2">Expense Distribution</h2>
+        <canvas id="expenseChart"></canvas>
+    </div>
+
+    <!-- BACK BUTTON -->
+    <div class="container">
+        <button class="bu" onclick="goBack()">Add More Expenses</button>
+    </div>
+</div>
+
+<!-- CHART.JS -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- YOUR JS -->
+<script src="view.js"></script>
+
+</body>
+</html>
