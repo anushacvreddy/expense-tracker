@@ -1,30 +1,20 @@
 # Expense Tracker – Full Stack Application
 
-This is a full stack Expense Tracker application built using **Node.js, Express, MySQL, Sequelize**, and **HTML/CSS/JavaScript**.
+This is a **Full Stack Expense Tracker** project that allows users to register, log in, and securely manage their data.  
+The project includes a **frontend**, **backend REST API**, and **MySQL database** integration with authentication.
 
-The project allows users to register, log in securely, and manage their daily expenses.
-
----
 
 ## 🚀 Features
 
-- User Signup & Login (JWT Authentication)
-- Secure password hashing using bcrypt
-- Add, view, and manage expenses
-- Backend REST APIs using Express
-- MySQL database with Sequelize ORM
-- Frontend pages using HTML, CSS, and JavaScript
+- User Registration
+- User Login
+- Password encryption using bcrypt
+- JWT-based authentication
+- RESTful APIs
+- MySQL database integration
+- Frontend connected to backend APIs
 
----
-
-## 🛠 Tech Stack
-
-### Backend
-- Node.js
-- Express.js
-- MySQL
-- Sequelize ORM
-- JWT Authentication
+## 🛠️ Tech Stack
 
 ### Frontend
 - HTML
@@ -32,6 +22,27 @@ The project allows users to register, log in securely, and manage their daily ex
 - JavaScript
 
 ---
+
+
+=======
+### Backend
+- Node.js
+- Express.js
+
+### Database
+- MySQL
+- Sequelize ORM
+
+### Security
+- bcrypt (password hashing)
+- JSON Web Token (JWT)
+
+
+## 📡 API Endpoints
+
+### Authentication
+- **POST** `/api/auth/register` – Register a new user
+- **POST** `/api/auth/login` – Login user
 
 
 
